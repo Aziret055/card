@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="header">
+    <div class="container">
+        <div class="header">
+            <h1>Add new card</h1>
+        </div>
+
+        <div class="blocks">
+            <div class="block">
+                <h4>Enter details</h4>
+                <h3 class="op1">Name</h3>
+                <input class="input1" type="text">
+                <h3 class="op2">Card number</h3>
+                <input oninput="addDash(this)" class="input2" maxlength="18" type="tel">
+                <h3 class="op3">Cvv</h3>
+                <input class="input4" maxlength="8" type="datetime">
+                <h3 class="op4">Expiry date</h3>
+                <input oninput="it3(this)" class="input3" maxlength="10" type="datetime">
+                <select class="sel"> 
+                    <option>visa</option>
+                    <option class="opt">mBank</option>
+                    <option>Optima</option>
+                </select>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <button class="btn">SAVE</button>
+        </div>
+    </div>
+    
+
+
+
+
+    <div class="container">
+        <div class="headerr">
+            <h1 class="hh">Checkout</h1>
+            <h2>€ 300,00</h2>
+        </div>
+        <div class="head-2">
+            <h4>Saved Cards</h4>
+            <!-- <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 5V19" stroke="#FF9900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 12H19" stroke="#FF9900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg> Add New</p> -->
+        </div>
+        <div class="blockst">
+            <!-- <img width="100" src="./img/219_visa.jpg" alt=""> -->
+        </div>
+        <div class="footer">
+            <button class="del-button">Delete</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
